@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Websites: A Comprehensive Guide</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body style="background-image: url('websites_ai_image.jpg');">
+        <!-- the header section provides a title for the page and a subheading for the title -->
+        <header>
+            <h1>Websites: A Comprehensive Guide</h1>
+            <p>Let's learn about websites together!</p>
+        </header>
+        <!-- section id breaks apart website into sections -->
+        <section id="introduction">
+            <h2>What is a Web Application?</h2>
+            <p>A web application is software that runs on a web browser. Websites provide features such as shopping carts, product search and filtering, instant messaging, and social media without necessitating the installation or local configuration of software on someone’s desktop.</p>
+            <p>Websites used to offer less functionality than web apps when the internet was originally developed. To gain access to some of the functionality available today, users had to install and run complicated native app software on their desktop. Web apps solve this problem by delivering functionality and interactive user elements traditionally offered by downloadable software via a web browser URL.</p>
+        </section>
+        
+        <section id="architecture">
+            <h2>Website Architecture</h2>
+            <p>Web applications have a client-server architecture. The client-side deals with user interface functionality such as buttons and drop-down boxes. The client-side script is loaded when the end user clicks on the web app link, rendering graphic elements and text for user interaction. The server-side architecture handles data processing through the web application server, which processes client requests and sends back a response. Requests usually involve asking for data, editing it, or saving it.</p>
+        </section>
+        
+        <section id="interaction">
+            <h2>Interaction with Back-End Databases</h2>
+            <p>Web applications interact with back-end databases to store, retrieve, and manipulate data in order to generate dynamic content, authenticate users, and personalize user experiences. A great example of this interaction is what occurs when a user logs onto a social media platform. The application retrieves the user’s profile information from the database to display on their dashboard.</p>
+        </section>
+        <!-- explain differnce between internet and intranet and provide appropriate heading-->
+        <section id="internet-vs-intranet">
+            <h2>Internet vs Intranet</h2>
+            <p>The terms Internet and Intranet are often used interchangeably, but they mean different things. Internets are public networks that work to connect different networks of computers simultaneously. For instance, the internet provides e-commerce, customer relationship management, and online collaboration services to users.</p>
+            <p>On the other hand, intranets are private networks. You need special permission to access an intranet. Intranets can potentially host employee directories, company policies, and collaboration tools to provide a means of communication and improve productivity.</p>
+        </section>
+        
+        <!-- Navigate to the References section by clicking show references -->
+        <section id="interactive">
+            <button onclick="showReferences()">Show References</button>
+        </section>
+        
+        <!-- script provide means of navigation to another page and references.html provides code for that page -->
+        <script>
+            function showReferences() {
+                window.location.href = "references.html"; // Redirect to the references page
+            }
+        </script>
+    </body>
+</html>
